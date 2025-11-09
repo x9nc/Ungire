@@ -1750,7 +1750,7 @@ function sections:button(props)
 		outline.BorderColor3 = self.library.theme.accent
 		table.insert(self.library.themeitems["accent"]["BorderColor3"],outline)
 		wait(0.05)
-		outline.BorderColor3 = Color3.fromRGB(255, 165, 0)
+		outline.BorderColor3 = Color3.fromRGB(12, 12, 12)
 		local find = table.find(self.library.themeitems["accent"]["BorderColor3"],outline)
 		if find then
 			table.remove(self.library.themeitems["accent"]["BorderColor3"],find)
